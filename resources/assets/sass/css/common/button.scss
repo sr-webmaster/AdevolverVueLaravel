@@ -1,0 +1,12 @@
+
+.red-primary {
+  @apply bg-red650;
+  @apply m-1;
+  @apply py-3;
+  @apply px-8;
+  @apply rounded;
+  @apply text-white; 
+  &:hover{
+    @apply bg-red-900;
+  }
+}
